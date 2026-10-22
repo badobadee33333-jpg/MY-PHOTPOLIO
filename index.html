@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a web developer. Explore projects, skills, and contact details.">
+  <title>Developer Portfolio | Hafeez</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <a class="logo" href="#home">&lt;H<span>/</span>&gt;</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle"
+      aria-label="Switch to light mode" title="Toggle theme">
+      ☀
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          AVAILABLE FOR PROJECTS
+        </p>
+
+        <h1>Hi, I'm <span class="gradient-text">Hafeez</span></h1>
+        <h2>I'm a <span id="typingText">Web Developer</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I build modern, responsive and interactive websites
+          using creative design and clean code.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore Projects ↗</a>
+          <button class="btn btn-outline" id="downloadCV">Download CV ↓</button>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com/" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="#contact">Contact Me ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="card-top">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="card-label">developer.js</span>
+          </div>
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent">name: <span class="code-green">'Hafeez'</span>,</p>
+            <p class="indent">role: <span class="code-green">'Developer'</span>,</p>
+            <p class="indent">skills: [<span class="code-green">'HTML'</span>,</p>
+            <p class="indent"><span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span>],</p>
+            <p class="indent">passion: <span class="code-orange">'Building'</span></p>
+            <p>};</p>
+            <p class="code-comment">// Turning ideas into reality.</p>
+          </div>
+          <div class="card-footer">
+            <span class="status-dot"></span> System ready
+            <span class="footer-right">100% creativity</span>
+          </div>
+        </div>
+        <div class="floating-badge badge-top">⚡ Clean Code</div>
+        <div class="floating-badge badge-bottom">{"</>"} Web Developer</div>
+      </div>
+
+      <a class="scroll-indicator" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Building the web, <span class="gradient-text">one idea at a time.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a developer who enjoys creating attractive, useful
+            and easy-to-use digital experiences. I like learning new
+            technologies and turning ideas into real projects.
+          </p>
+          <p>
+            My current focus is frontend development, responsive
+            interfaces and JavaScript-powered applications.
+          </p>
+          <a href="#contact" class="text-link">Let's work together ↗</a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <strong>03+</strong><span>Core Technologies</span>
+          </div>
+          <div class="stat-card">
+            <strong>24/7</strong><span>Curiosity to Learn</span>
+          </div>
+          <div class="stat-card">
+            <strong>100%</strong><span>Creative Thinking</span>
+          </div>
+          <div class="stat-card">
+            <strong>∞</strong><span>Ideas to Explore</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / MY SKILLS</p>
+        <h2>Technologies I <span class="gradient-text">work with.</span></h2>
+        <p class="section-description">
+          My current toolkit for building digital experiences.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon html-icon">5</div>
+          <div class="skill-info"><h3>HTML</h3><span>Structure</span></div>
+          <span class="skill-percent">90%</span>
+          <div class="skill-track"><div class="skill-fill" data-level="90"></div></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon css-icon">#</div>
+          <div class="skill-info"><h3>CSS</h3><span>Design</span></div>
+          <span class="skill-percent">85%</span>
+          <div class="skill-track"><div class="skill-fill" data-level="85"></div></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon js-icon">JS</div>
+          <div class="skill-info"><h3>JavaScript</h3><span>Interaction</span></div>
+          <span class="skill-percent">75%</span>
+          <div class="skill-track"><div class="skill-fill" data-level="75"></div></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon python-icon">Py</div>
+          <div class="skill-info"><h3>Python</h3><span>Programming</span></div>
+          <span class="skill-percent">60%</span>
+          <div class="skill-track"><div class="skill-fill" data-level="60"></div></div>
+        </article>
+      </div>
+      <p class="skill-note">Edit the percentages to reflect your actual skill levels.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects I've <span class="gradient-text">built.</span></h2>
+        <p class="section-description">
+          A few example projects to showcase my development skills.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-art art-one">
+            <span class="art-symbol">▦</span>
+            <span class="art-caption">01 / E-COMMERCE</span>
+          </div>
+          <div class="project-body">
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Shopping Website</h3>
+            <p>A responsive product catalogue with search, a shopping cart and price calculations.</p>
+            <a href="#contact" class="project-link">Discuss Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-two">
+            <span class="art-symbol">⌘</span>
+            <span class="art-caption">02 / PRODUCTIVITY</span>
+          </div>
+          <div class="project-body">
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <h3>Resume Builder</h3>
+            <p>A CV creator concept with editable details, live previews and a print-to-PDF option.</p>
+            <a href="#contact" class="project-link">Discuss Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-three">
+            <span class="art-symbol">✳</span>
+            <span class="art-caption">03 / AI INTERFACE</span>
+          </div>
+          <div class="project-body">
+            <div class="tag-list"><span>JavaScript</span><span>UI</span><span>API-ready</span></div>
+            <h3>AI Chat Interface</h3>
+            <p>A chatbot interface concept with messaging, a modern layout and theme customization.</p>
+            <a href="#contact" class="project-link">Discuss Project ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="project-note">These are sample portfolio entries. Replace them with your real projects and working demo links.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / GET IN TOUCH</p>
+        <h2>Have an idea? <span class="gradient-text">Let's build it.</span></h2>
+        <p class="section-description">
+          Send a message about your project or collaboration idea.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details reveal">
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <div><h3>Email</h3><p>Replace with your email address</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">⌘</span>
+            <div><h3>GitHub</h3><p>Showcase your source code</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">↗</span>
+            <div><h3>Availability</h3><p>Open to learning and collaboration</p></div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text"
+            placeholder="Enter your name" required maxlength="100">
+
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email"
+            placeholder="you@example.com" required maxlength="200">
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="5"
+            placeholder="Tell me about your idea..." required maxlength="5000"></textarea>
+
+          <button class="btn btn-primary submit-btn" type="submit">
+            Prepare Email ↗
+          </button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+          <p class="form-note">
+            This demo opens your email application. It does not send or store messages on a server.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">&lt;H<span>/</span>&gt;</a>
+    <p>Designed and built with <span class="gradient-text">♥</span> and code.</p>
+    <p>© <span id="year"></span> Hafeez. Customize as needed.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
