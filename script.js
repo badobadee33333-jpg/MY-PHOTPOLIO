@@ -263,7 +263,7 @@ const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 
 // Replace this with your real email address.
-const recipientEmail = "your-email@example.com";
+const recipientEmail = "your-hrrehman4545555@gmail.com";
 
 contactForm?.addEventListener("submit", (event) => {
   event.preventDefault();
